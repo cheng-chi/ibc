@@ -32,7 +32,7 @@ from ibc.environments.collect.utils import serialize as serialize_module
 import numpy as np  # pylint: disable=unused-import,g-bad-import-order
 import tensorflow as tf
 from tf_agents.environments import suite_gym  # pylint: disable=unused-import,g-bad-import-order
-from tf_agents.google.wrappers import mp4_video_wrapper
+# from tf_agents.google.wrappers import mp4_video_wrapper
 from tf_agents.trajectories import policy_step
 
 flags.DEFINE_enum(
